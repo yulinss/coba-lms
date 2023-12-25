@@ -17,6 +17,8 @@ class UserAdminSeeder extends Seeder
         $items = [
             
             ['id' => 1, 'name' => 'admin', 'email' => 'admin@example.com', 'password' => bcrypt('123'), 'remember_token' => '',],
+            ['id' => 2, 'name' => 'Teacher', 'email' => 'rhena@gmail.com', 'password' => bcrypt('123'), 'remember_token' => '',],
+            ['id' => 3, 'name' => 'Student', 'email' => 'yulin@gmail.com', 'password' => bcrypt('123'), 'remember_token' => '',],
 
         ];
 
